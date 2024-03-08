@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  golang:
+    container_name: app_project-stripe33
+    build:
+      context: .
+    ports:  
+      - "8086:8086"
